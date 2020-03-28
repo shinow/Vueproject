@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "highlight"
+    ],
+    "id": 441148,
+    "title": "Saber开发手册",
+    "description": "Saber是SpringBlade前端UI项目，基于Vue、Vuex、Avue、ElementUI等核心技术，用于快速构建系统中后台业务的前端框架。本手册主要讲解如何在Saber平台下开发业务模块，同时也是Vue、ElementUI入门的绝佳选择",
+    "cover": "cover.jpg"
+}

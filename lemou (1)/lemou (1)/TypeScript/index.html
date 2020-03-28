@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>jq设置h5的手势密码</title>
+</head>
+
+<body>
+    <div class="gesture_wrapper">
+        <div class="thumbnail">
+            <!-- <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> -->
+            <span class=" limit">至少连接四个点</span>
+            <span class=" again againcn">再次绘制解锁图案</span>
+            <span class=" disagree disagreecn">两次不一致,请重新绘制</span>
+        </div>
+        <div class="gesturepwd_modal">
+            <div id="gesturepwd"></div>
+        </div>
+        <div>
+            <span class="clear_again ">重新绘制</span>
+        </div>
+    </div>
+</body>
+<script src="./script/jquery-3.2.1.min.js"></script>
+<script src="./script/jquery.gesture.password.min.js"></script>
+<script src="./js/index.js"></script>
+
+</html>

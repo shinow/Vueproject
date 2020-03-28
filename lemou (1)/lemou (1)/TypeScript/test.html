@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div style="width: 100%;text-align: center;margin-top: 150px;">
+    <!-- <h1 style="font-size: 100px;">MacBook pro</h1> -->
+  </div>
+</body>
+<script>
+  //是否存在
+  const str = 'hahay'
+  if (str.includes('ab')) {
+    console.log(188) // true
+  } else {
+    console.log(false)
+  }
+  //遍历对象
+  let Arr = {
+    1: "100``",
+    2: "200``",
+    3: "300``",
+    4: "400``",
+    5: "500``",
+    6: "600``",
+    7: "700``",
+    8: "800``",
+  }
+  for (const key in Arr) {
+    if (Arr.hasOwnProperty(key)) {
+      const element = Arr[key];
+      if (element === "500``") {
+        console.log(key)
+      }
+    }
+  }
+  //字符串
+  let Arraya = ["1555555555555", "19874561323555"]
+  let aString = Arraya.toString()
+  console.log(aString)
+  //计算合
+  let sum = [0, 1, 2, 3].reduce((a, b) => {
+    console.log("a:" + a + "b:" + b)
+    return a + b;
+  }, 0);
+  console.log(sum)
+  console.log("·······································")
+  let obj = {
+    'a': 'aa',
+    'b': 'bb',
+    'c': 'cc',
+    'd': 'dd'
+  };
+  for (let i in obj) {
+    i; //a b c d
+    obj[i]; // aa bb cc dd
+  }
+  console.log("-------------------------")
+  let [head, ...tail] = [1, 2, 3, 4];
+  head // 1
+  tail // [2, 3, 4]
+  console.log("-------------------------")
+  let a = [1, 2, 3];
+  let b = [1, 5, 2, 5, 38, 5, 3, 5, 9, 484, 21]
+  a = a.concat(b);
+  console.log(a);
+</script>
+
+</html>
